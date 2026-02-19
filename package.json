@@ -1,0 +1,13 @@
+{
+  "name": "daily-ai-tips-email",
+  "version": "1.0.0",
+  "description": "Daily AI tips for alumni relations professionals",
+  "main": "send-email.js",
+  "scripts": {
+    "send": "node send-email.js",
+    "test": "node send-email.js --dry-run"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
